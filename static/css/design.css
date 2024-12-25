@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  .navCon {
+    display: flex;
+    column-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Logo img {
+    width: 11.5rem;
+    padding-top: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .navItems a {
+    text-decoration: none;
+    color: #292828;
+    padding-left: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .navItems a:nth-child(2) {
+    color: #e26c24;
+  }
+  
+  .navItems2 img {
+    width: 1.4rem;
+    margin-right: 1rem;
+  }
+
+  .child {
+    width: 30rem;
+  }
+
+  .TextCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10rem;
+  }
+
+  .sm-gown {
+    font-size: 0.7rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .melanin {
+    font-size: 1.4rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .review, .lorem {
+    font-size: 0.8rem;
+    padding-bottom: 1.4rem;
+  }
+
+  .available {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .section {
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    padding-top: 2.7rem;
+    font-size: 1.7rem;
+    background-color: #a86845;
+    margin-bottom: 2rem;
+  }
+
+  .pact {
+    font-size: 0.7rem;
+    padding-top: 1rem;
+  }
+
+  .available {
+    padding-bottom: 1rem;
+  }
+
+  .colorCon {
+    display: flex;
+    column-gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .sub {
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50px;
+    background-color: rgb(154, 147, 147);
+  }
+
+  .size {
+    padding-bottom: 1.9rem;
+  }
+
+  .Sizes {
+    display: flex;
+    column-gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .Sizes button:nth-child(3){
+    background-color: #e26c24;
+  }
+
+  .sizeCon {
+    padding: 0.4rem 1rem;
+    background: none;
+    border: 1px solid #eee;
+  }
+  
+  .view {
+    font-size: 0.7rem;
+    color: black;
+  }
+
+  .cart {
+    padding-bottom: 1rem;
+  }
+
+  .add {
+    padding: 0.4rem 1.5rem;
+    background-color: #a86845;
+  }
+  
+  .buy {
+    background-color: #e26c24;
+  }
+
+  .like {
+    padding: 0.3rem 0.6rem;
+    background: none;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    
+  }
+
+  .like img{
+    width: 1rem;
+    position: relative;
+    top: 3px;
+  }
+
+  .SKU p {
+    font-size: 0.6rem;
+  }
+
+  .Shop {
+    width: 100%;
+    height: 35rem;
+    display: grid;
+    grid-template-columns: 50% 20% 30%;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .shopCon {
+    height: 30rem;
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+
+  .con {
+    height: 7rem;
+    width: 8rem;
+    background-color: #a19f9f;
+    background-image: url("../Img/Pictures/Baddie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .white {
+    background-color: #a19f9f;
+  }
+
+  .red{
+    background-color: rgb(40, 107, 40);
+    border: 2px solid #c6c2c2;
+  }
+
+  .blue {
+    background-color: rgb(217, 217, 78);
+  }
+
+  .yellow {
+    background-color: #e26c24;
+  }
+
+  .dressCon {
+    width: 20rem;
+    height: 30rem;
+    background-color: #a19f9f ;
+    background-image: url("../Img/Pictures/Baddie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .option {
+    background-color: #fcfcfc;
+    height: 75rem;
+    /* padding: 3.5rem; */
+    padding-top: 2rem;
+  }
+
+  .optionChild {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  .cardCon {
+    padding-bottom: 2rem;
+  }
+
+  .bellaCard {
+    height: 17rem;
+    width: 13rem;
+    background-color: #b9b0b0;
+    border-radius: 5px;
+   
+  }
+
+  .card1 {
+    background-image: url("../Img/Pictures/Acient.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .card2 {
+    background-image: url("../Img/Pictures/Baddie.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  
+  }
+
+  .card3 {
+    background-image: url("../Img/Pictures/yellow.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  .card4 {
+    background-image: url("../Img/Pictures/Winch.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  
+  }
+
+  .card5 {
+    background-image: url("../Img/Pictures/Women\ fashion.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  
+  }
+
+  .card6 {
+    background-image: url("../Img/Pictures/Nancy.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  
+  }
+
+  .card7 {
+    background-image: url("../Img/Pictures/Sun.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  
+  }
+
+  .card8 {
+    background-image: url("../Img/Pictures/The\ Jumi\ Dress.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  
+  }
+
+  .card9 {
+    background-image: url("../Img/Pictures/Shiny.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  .bellaCard img {
+    width: 10rem;
+  }
+  
+  .textbar {
+    padding: 0.8rem 0 0 0.5rem;
+  }
+  
+  .gown {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .sm-gown {
+    font-size: 0.7rem;
+  }
+
+  .womenCon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding-left: 5rem; */
+    padding-top: 2rem;
+  }
+
+  .optiongrid1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fash {
+    font-size: 0.8rem;
+    font-weight: bold
+  }
+
+  .fil {
+    font-size: 0.8rem;
+    font-weight: bold
+  }
+
+  .filterList {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .filterList p {
+    padding-bottom: 1rem;
+  }
+
+  .line {
+    height: 0.2rem;
+    width: 10rem;
+    border-radius: 5px;
+    background-color: #727070;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+
+  .measureBtn button{
+    background: none;
+    border: 1px solid #ddd;
+  }
+
+  footer {
+    height: 19rem;
+    background-color: #262626;
+    padding: 2rem;
+    color: #d48f67b7;
+  }
+  
+  .footerCon {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 0.6px solid #eeeeee3e;
+    padding-bottom: 2rem;
+    justify-content: center;
+    gap: 15rem;
+  }
+  
+  .logoFooter img {
+    width: 11rem;
+  }
+  
+  .socials img {
+    width: 1.5rem;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0px 0px 2.2rem;
+  }
+  
+  .contact {
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .gridText {
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+  
+  .textG {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .input input {
+    padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+    color: #d65b1d;
+  }
+  
+  .input ::placeholder {
+    color: #e3824a;
+  }
+  
+  .bott {
+    font-size: 0.7rem;
+    color: #e3824a77;
+    text-align: end;
+    padding: 1rem 5rem 0 0;
+  }
+
+  .btnBella {
+    border-radius: 20px;
+    padding: 3px 5px;
+    margin: 6px 5px;
+    background-color: #c7a089;
+    border: 2px solid #c86126;
+  }
+
+  .btnBella img{
+    width: 1.2rem;
+    position: relative;
+    top: 2px;
+  }
+
+
+

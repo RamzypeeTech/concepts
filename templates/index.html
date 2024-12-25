@@ -1,0 +1,290 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trubella's Concept</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navCon">
+          <div class="Logo">
+            <a href="{% url 'index' %}">
+              <img src="{% static 'assets/icons/logo3.png' %}" alt="" />
+            </a>
+          </div>
+
+          <div class="navItems">
+            <a href="{% url 'index' %}">Home</a>
+            <a href="{% url 'design' %}">Design</a>
+            <a href="{% url 'materials' %}">Materials</a>
+            <a href="{% url 'gallery' %}">Gallery</a>
+            <a href="{% url 'contact' %}">Contact</a>
+          </div>
+        </div>
+
+        <div class="navItems2">
+          <a href="./Shop/index.html">
+            <img src="{% static 'assets/icons/needle.png' %}" alt=""
+          /></a>
+          <img src="{% static 'assets/icons/like.png' %}" alt="" />
+          <img
+            src="{% static 'assets/icons/shopping-cart.png' %}"
+            alt=""
+          />
+        </div>
+      </nav>
+
+      <div class="banner">
+        <div class="bannerImg">
+          <img src="{% static 'assets/images/IMG.isa.jpg' %}" alt="" />
+        </div>
+
+        <div class="bannerText">
+          <div class="bannerCon">
+            <p class="bella">Bella's <br />Collection 2024</p>
+            <p class="effort">
+              EFFORTLESSLY <br /><span class="fortable">FORTABLE</span>
+            </p>
+
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <article>
+      <div class="category">
+        <div class="cateCard">
+          <div class="cateText">
+            <p>Ankara Elegance</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+
+          <div class="cateImg">
+            <img
+              src="{% static 'assets/images/gown4-removebg-preview.png' %}"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="cateCard1">
+          <div class="cateText1">
+            <p>Glamour Nights</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+
+          <div class="cateImg">
+            {% comment %}
+            <img
+              src="{% static 'assets/images/Women fashion.jpg' %}"
+              alt=""
+            />
+            {% endcomment %}
+          </div>
+        </div>
+
+        <div class="cateCard2">
+          <div class="cateText">
+            <p>Contemporary Chic</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+
+          <div class="cateImg">
+            <img
+              src="{% static 'assets/images/gown7 (3).png' %}"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div class="section">
+      <div class="textSection">
+        <p>Welcome to Bella's Collection</p>
+        <p id="txt2">
+          The Ultimate Fashion Style that would take your breath Away
+        </p>
+        <div class="text2">
+          <p>
+            Fashion is more than just clothing—it's a way to express who you are
+            without saying a word. Imagine a style so captivating, so
+            enchanting, it leaves everyone around you speechless. The ultimate
+            fashion style is not just about trends; it’s about personality,
+            creativity, and confidence woven seamlessly into a masterpiece.
+            Fashion is an art, and the ultimate style is a masterpiece waiting
+            to be created. It’s bold, it’s beautiful, and most importantly, it’s
+            yours. So go ahead—step out, and let your fashion take their breath
+            away!
+          </p>
+        </div>
+
+        <div class="vector">
+          <img src="{% static 'assets/icons/circle.png' %}" alt="" />
+          <p class="circle">You can see but you can't.....</p>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="mainCon">
+        <div class="firstCon">
+          <div class="firstCard">
+            <div class="firstImg">
+              <img
+                src="{% static 'assets/images/Women fashion.jpg' %}"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="firstText">
+            <p class="Flower">Flowery Scene</p>
+            <p class="text">
+              A flowery scene is a canvas painted by nature, <br />
+              adorned with roses, daisies, sunflowers, and wild blooms in every
+              hue imaginable
+            </p>
+            <p class="text1">Shop Now</p>
+          </div>
+        </div>
+
+        <div class="secondCon">
+          <div class="secondText">
+            <p class="Flower">New Fashion</p>
+            <p class="text">
+              From vibrant streetwear to futuristic silhouettes, it’s all about
+              pushing limits while staying authentic.
+            </p>
+            <p class="text1"><strong>Book Now</strong></p>
+          </div>
+
+          <div class="secondCard">
+            <div class="secondImg"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="Section2">
+      <div class="bellaText">
+        <p class="collect">Bella'S Collection</p>
+        <!-- <img src="./Img/Icons/butterfly.png" alt=""> -->
+        <p class="show">
+          Bella's Collection is a haven for timeless elegance and modern
+          sophistication. <br />
+          Each piece in the collection is thoughtfully designed to celebrate
+          individuality and confidence, <br />
+          blending luxurious fabrics with exquisite craftsmanship. From chic
+          casual wear to dazzling evening attire, Bella’s Collection offers
+          styles that cater to every occasion.
+        </p>
+      </div>
+
+      <div class="bellaBtn">
+        <div class="bellaChild">
+          <button data-category="gowns" class="gwBtn">Gowns</button>
+          <button data-category="tops">Tops</button>
+          <button data-category="skirts">Skirts</button>
+          <button data-category="trousers">Trousers</button>
+          <button data-category="dress set">Dress set</button>
+          <button data-category="materials">Materials</button>
+        </div>
+      </div>
+
+      <div class="bellaCon">
+        <div class="bellaMini"></div>
+      </div>
+    </div>
+
+    <div class="mainVideo">
+      <div class="videoCon">
+        <div class="videoBaby">
+          <div class="videoText">
+            <p class="follow">Follow Us on Instagram</p>
+            <p class="smFollow">
+              Stay connected and inspired by following us on Instagram! Discover
+              the latest trends, exclusive collections, and behind-the-scenes
+              moments.
+            </p>
+          </div>
+        </div>
+
+        <div class="videoSlider">
+          <div class="sliderCard"></div>
+          <div class="smSliderCard">
+            {% comment %}
+            <img
+              src="{% static 'assets/images/gown7 (3).png' %}"
+              alt=""
+            />
+            {% endcomment %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerCon">
+        <div class="grid1">
+          <div class="logoFooter">
+            <img src="{% static 'assets/icons/logo3.png' %}" alt="" />
+          </div>
+          <div class="socials">
+            <a href="https://web.facebook.com/isabella.christopher.1">
+              <img
+                src="{% static 'assets/icons/facebook-app-symbol.png' %}"
+                alt=""
+              />
+            </a>
+            <a href="https://www.instagram.com/trubella_concept/">
+              <img
+                src="{% static 'assets/icons/instagram.png' %}"
+                alt=""
+              />
+            </a>
+            <a href="https://www.tiktok.com/@onitshafashiondesigner">
+              <img
+                src="{% static 'assets/icons/tik-tok.png' %}"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="grid2">
+          <div class="gridText">
+            <p class="contact">CONTACT US</p>
+            <p>OkekeIsa520@gmail.com</p>
+            <p>24 Atlantic Ave, Lagos, NY 11201</p>
+            <p>Bella Inc</p>
+            <p>+234 813 863 4750</p>
+          </div>
+        </div>
+
+        <div class="grid3">
+          <div class="textG">
+            <p class="contact">SUBSCRIBE</p>
+            <p>Enter your email to get notified <br />about our new designs</p>
+          </div>
+
+          <div class="input">
+            <input type="text" placeholder="Email" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bott">
+        <p>@ 2024 Bella Inc. All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="{% static 'javascript/script.js' %}"></script>
+    <script type="module" src="{% static 'javascript/index.js' %}"></script>
+  </body>
+</html>

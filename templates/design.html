@@ -1,0 +1,292 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trubella's Concept</title>
+    <link rel="stylesheet" href="{% static './css/design.css' %}" />
+  </head>
+  <body>
+    <nav>
+      <div class="navCon">
+        <div class="Logo">
+          <img src="{% static 'assets/icons/logo3.png' %}" alt="" />
+        </div>
+
+        <div class="navItems">
+          <a href="{% url 'index' %}">Home</a>
+          <a href="{% url 'design' %}l">Design</a>
+          <a href="{% url 'materials' %}">Materials</a>
+          <a href="{% url 'gallery' %}">Gallery</a>
+          <a href="{% url 'contact' %}">Contact</a>
+        </div>
+      </div>
+
+      <div class="navItems2">
+        <img src="{% static 'assets/icons/needle.png' %}" alt="" />
+        <img src="{% static 'assets/icons/like.png' %}" alt="" />
+        <img src="{% static 'assets/icons/shopping-cart.png' %}" alt="" />
+      </div>
+    </nav>
+    <div class="section">
+      <p>Design</p>
+      <p class="pact">Home / Design</p>
+    </div>
+
+    <div class="Shop">
+      <div class="TextCon">
+        <div class="child">
+          <p class="sm-gown">Gowns</p>
+          <p class="melanin">Melanin Premium Denmin Gown</p>
+          <p class="review">4.8 [245 Review]</p>
+          <p class="lorem">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            alias iure consequuntur, officia blanditiis ab sed pariatur?
+            Quibusdam, assumenda non?
+          </p>
+
+          <div class="colors">
+            <p class="available">Colors Available</p>
+
+            <div class="colorCon">
+              <div class="sub white"></div>
+              <div class="red sub"></div>
+              <div class="blue sub"></div>
+              <div class="sub yellow"></div>
+            </div>
+          </div>
+
+          {% comment %}
+          <div class="size">
+            <p class="available">Size Available</p>
+
+            <div class="Sizes">
+              <button class="sizeCon">S</button>
+              <button class="sizeCon">M</button>
+              <button class="large sizeCon">L</button>
+              <button class="sizeCon">XL</button>
+              <button class="sizeCon">XXL</button>
+              <button class="sizeCon">XXXL</button>
+            </div>
+
+            <a href="" class="view">View size Guide</a>
+          </div>
+          {% endcomment %} {% comment %}
+          <div class="cart">
+            <button class="add">Add to Cart</button>
+            <button class="add buy">Order Now</button>
+            <button class="like">
+              <img src="{% static 'assets/icons/like.png' %}" alt="" />
+            </button>
+          </div>
+          {% endcomment %}
+
+          <div class="SKU">
+            <p>SKU : GHFT95245AAAA</p>
+            <p>Tags : Women, Coat, Fashion, jacket</p>
+          </div>
+        </div>
+      </div>
+      <div class="shopCon">
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+      </div>
+
+      <div class="dressCon"></div>
+    </div>
+
+    <div class="option">
+      <div class="optionChild">
+        <div class="optiongrid1">
+          <div class="babyGrid">
+            <div class="filter">
+              <p class="fil">Filter</p>
+              <img src="" alt="" />
+            </div>
+
+            <div class="filterList">
+              <p>Tops</p>
+              <p>Gowns</p>
+              <p>Skirts</p>
+              <p>Blouses</p>
+              <p>Jackets</p>
+              <p>Trousers</p>
+              <p>Ankara</p>
+              <p>Two sets</p>
+            </div>
+
+            <div class="measureList">
+              <p class="fil">Measurement</p>
+
+              <div class="line"></div>
+
+              <div class="measureBtn">
+                <button>M</button>
+                <button>XXXL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="optionGrid2">
+          <p class="fash">Women's Fashion</p>
+
+          <div class="womenCon">
+            <div class="cardCon">
+              <div class="bellaCard card1">
+                <!-- <button class="btnBella">
+                  <img src="../Img/Icons/like.png" alt="">
+                </button> -->
+                <img src="" alt="" />
+              </div>
+
+              <div class="textbar">
+                <p class="gown">Pavela Gown</p>
+                <p class="sm-gown">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="cardCon">
+              <div class="bellaCard card2">
+                <img src="" alt="" />
+              </div>
+
+              <div class="textbar">
+                <p class="gown">Pavela Gown</p>
+                <p class="sm-gown">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="cardCon">
+              <div class="bellaCard card3">
+                <img src="" alt="" />
+              </div>
+
+              <div class="textbar">
+                <p class="gown">Pavela Gown</p>
+                <p class="sm-gown">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="cardCon">
+              <div class="bellaCard card4">
+                <img src="" alt="" />
+              </div>
+
+              <div class="textbar">
+                <p class="gown">Pavela Gown</p>
+                <p class="sm-gown">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="cardCon">
+              <div class="bellaCard card5">
+                <img src="" alt="" />
+              </div>
+
+              <div class="textbar">
+                <p class="gown">Pavela Gown</p>
+                <p class="sm-gown">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="cardCon">
+              <div class="bellaCard card6">
+                <img src="" alt="" />
+              </div>
+
+              <div class="textbar">
+                <p class="gown">Pavela Gown</p>
+                <p class="sm-gown">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="cardCon">
+              <div class="bellaCard card7">
+                <img src="" alt="" />
+              </div>
+
+              <div class="textbar">
+                <p class="gown">Pavela Gown</p>
+                <p class="sm-gown">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="cardCon">
+              <div class="bellaCard card8">
+                <img src="" alt="" />
+              </div>
+
+              <div class="textbar">
+                <p class="gown">Pavela Gown</p>
+                <p class="sm-gown">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="cardCon">
+              <div class="bellaCard card9">
+                <img src="" alt="" />
+              </div>
+
+              <div class="textbar">
+                <p class="gown">Pavela Gown</p>
+                <p class="sm-gown">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footerCon">
+        <div class="grid1">
+          <div class="logoFooter">
+            <img src="{% static 'assets/icons/logo3.png' %}" alt="" />
+          </div>
+          <div class="socials">
+            <a href="https://web.facebook.com/isabella.christopher.1">
+              <img
+                src="{% static 'assets/icons/facebook-app-symbol.png' %}"
+                alt=""
+              />
+            </a>
+            <a href="https://www.instagram.com/trubella_concept/">
+              <img src="{% static 'assets/icons/instagram.png' %}" alt="" />
+            </a>
+            <a href="https://www.tiktok.com/@onitshafashiondesigner">
+              <img src="{% static 'assets/icons/tik-tok.png' %}" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="grid2">
+          <div class="gridText">
+            <p class="contact">CONTACT US</p>
+            <p>OkekeIsa520@gmail.com</p>
+            <p>24 Atlantic Ave, Lagos, NY 11201</p>
+            <p>Bella Inc</p>
+            <p>+234 813 863 4750</p>
+          </div>
+        </div>
+
+        <div class="grid3">
+          <div class="textG">
+            <p class="contact">SUBSCRIBE</p>
+            <p>Enter your email to get notified <br />about our new designs</p>
+          </div>
+
+          <div class="input">
+            <input type="text" placeholder="Email" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bott">
+        <p>@ 2024 Bella Inc. All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static './css/materials.css' %}" />
+  </head>
+  <body>
+    <nav>
+      <div class="navCon">
+        <div class="Logo">
+          <img src="{% static 'assets/icons/logo3.png' %}" alt="" />
+        </div>
+
+        <div class="navItems">
+          <a href="{% url 'index' %}">Home</a>
+          <a href="{% url 'design' %}">Design</a>
+          <a href="{% url 'materials' %}">Materials</a>
+          <a href="{% url 'gallery' %}">Gallery</a>
+          <a href="{% url 'contact' %}">Contact</a>
+          <!-- <a href="" class="vendor">Contact Us</a> -->
+        </div>
+      </div>
+
+      <div class="navItems2">
+        <img src="{% static 'assets/icons/needle.png' %}" alt="" />
+        <img src="{% static 'assets/icons/like.png' %}" alt="" />
+        <img src="{% static 'assets/icons/shopping-cart.png' %}" alt="" />
+      </div>
+    </nav>
+
+    <div class="section">
+      <p>Materials</p>
+      <p class="pact">Home / Design / Materials</p>
+    </div>
+  </body>
+</html>
